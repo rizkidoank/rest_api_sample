@@ -1,0 +1,32 @@
+{
+  "name": "rest_api_sample",
+  "version": "1.0.0",
+  "description": "REST API CRUD, sample case is user CRUD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizkidoank/rest_api_sample.git"
+  },
+  "keywords": [
+    "rest",
+    "node",
+    "tutorial",
+    "crud"
+  ],
+  "author": "rizkidoank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizkidoank/rest_api_sample/issues"
+  },
+  "homepage": "https://github.com/rizkidoank/rest_api_sample#readme",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.2",
+    "validator": "^6.0.0"
+  }
+}
